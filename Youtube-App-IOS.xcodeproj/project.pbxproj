@@ -13,6 +13,10 @@
 		822AE01E24CFD69200D7891C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822AE01C24CFD69200D7891C /* Main.storyboard */; };
 		822AE02024CFD69300D7891C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822AE01F24CFD69300D7891C /* Assets.xcassets */; };
 		822AE02324CFD69300D7891C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822AE02124CFD69300D7891C /* LaunchScreen.storyboard */; };
+		822AE02B24CFDDF200D7891C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822AE02A24CFDDF200D7891C /* Constants.swift */; };
+		822AE02D24CFED6900D7891C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822AE02C24CFED6900D7891C /* Model.swift */; };
+		822AE02F24CFED7400D7891C /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822AE02E24CFED7300D7891C /* Video.swift */; };
+		822AE03124CFF3ED00D7891C /* ConstantsCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822AE03024CFF3ED00D7891C /* ConstantsCopy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		822AE01F24CFD69300D7891C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		822AE02224CFD69300D7891C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		822AE02424CFD69300D7891C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822AE02A24CFDDF200D7891C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		822AE02C24CFED6900D7891C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		822AE02E24CFED7300D7891C /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		822AE03024CFF3ED00D7891C /* ConstantsCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsCopy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				822AE01F24CFD69300D7891C /* Assets.xcassets */,
 				822AE02124CFD69300D7891C /* LaunchScreen.storyboard */,
 				822AE02424CFD69300D7891C /* Info.plist */,
+				822AE02A24CFDDF200D7891C /* Constants.swift */,
+				822AE02C24CFED6900D7891C /* Model.swift */,
+				822AE02E24CFED7300D7891C /* Video.swift */,
+				822AE03024CFF3ED00D7891C /* ConstantsCopy.swift */,
 			);
 			path = "Youtube-App-IOS";
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822AE03124CFF3ED00D7891C /* ConstantsCopy.swift in Sources */,
+				822AE02D24CFED6900D7891C /* Model.swift in Sources */,
+				822AE02F24CFED7400D7891C /* Video.swift in Sources */,
 				822AE01B24CFD69200D7891C /* ViewController.swift in Sources */,
 				822AE01724CFD69200D7891C /* AppDelegate.swift in Sources */,
 				822AE01924CFD69200D7891C /* SceneDelegate.swift in Sources */,
+				822AE02B24CFDDF200D7891C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
