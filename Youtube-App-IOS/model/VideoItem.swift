@@ -1,5 +1,5 @@
 //
-//  Video.swift
+//  VideoItem.swift
 //  Youtube-App-IOS
 //
 //  Created by Kapil Bhattarai on 7/28/20.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Video {
+struct VideoItem {
     var videoId = ""
     var title = ""
     var description = ""
