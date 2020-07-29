@@ -105,7 +105,6 @@
 			children = (
 				822AE02C24CFED6900D7891C /* Model.swift */,
 				822AE02E24CFED7300D7891C /* Video.swift */,
-				822AE03024CFF3ED00D7891C /* ConstantsCopy.swift */,
 				822AE03224D01D3800D7891C /* VideoItem.swift */,
 			);
 			path = model;
@@ -114,6 +113,7 @@
 		82EF1E2324D10F5C0026F4D8 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				822AE03024CFF3ED00D7891C /* ConstantsCopy.swift */,
 				822AE02A24CFDDF200D7891C /* Constants.swift */,
 				82EF1E2424D11DDB0026F4D8 /* CacheManager.swift */,
 			);
